@@ -133,6 +133,13 @@ Error torbrowser-launcher has no installation candidate
 ![has no installation candidate error 3](https://github.com/user-attachments/assets/9ae23ede-982d-448e-a25d-29b079b29478)
 
 
+# FINALLY FIGURED IT OUT :)
+
+downloaded tor from main website 
+
+ extracted and installed it. was able to access tor.
+
+![accessed tor 1](https://github.com/user-attachments/assets/f9221b29-adc2-4b4d-a022-872b79ba55bd)
 
 
 
@@ -140,16 +147,30 @@ Error torbrowser-launcher has no installation candidate
 Find, take screenshots and comment
 
    -search engine for onion sites
+   tor has multiple search engines like torch, ahmia, haystak and DuckDuckGo
+   
+![searched engine for onion sites and found duckduckgo](https://github.com/user-attachments/assets/d1c451b5-8717-40fc-a36e-b7499c5b47ce)
 
    -human rights or civil rights organization
+   
+   ![civil rights organisation](https://github.com/user-attachments/assets/08fd681e-f803-48f8-8eab-4bfc181df00a)
+
 
    -marketplace
+   facebook marketplace
+   ![facebook market place 3](https://github.com/user-attachments/assets/1a9014e4-ce4d-42b2-b962-5448c06b6748)
+
 
    -fraud
+![fraud 4](https://github.com/user-attachments/assets/c5c5747a-64ac-4085-8057-a6f7774d528c)
 
    -forum
+![forum (democratic underground)5](https://github.com/user-attachments/assets/7a2eadf0-e82e-4581-934a-8399c31605e7)
+
 
    -a well known organization (with regular postal addresses, offices or similar presence outside darknet)
+![FBI](https://github.com/user-attachments/assets/c0117350-e5c1-4fc5-8b7b-5e0326525d0a)
+
 
 Use .onion addresses inside TOR network, not regular (clearnet) websites through exit nodes.
 
