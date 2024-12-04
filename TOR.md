@@ -15,9 +15,11 @@ Tor's effectiveness lies in its ability to create a maze-like path for your inte
 While Tor provides robust protection, it's not without its vulnerabilities. Potential attacks could include attempts to decrease network reliability or subvert directory servers. However, the Tor Project continuously works to address and mitigate these risks, making it a dynamic and evolving system.
 
 
+
 ### Karunanayake, Ahmed, Malaney, Islam and Jha 2021: De-anonymisation attacks on tor: A survey. In IEEE Communications Surveys & Tutorials (jufo level 2). Chapters: Abstract,I Introduction, II Background (to the end of "B. Circuit Establishent for Tor HS"), Fig. 6. Taxonomy for Tor attacks (Just the figure on page 2330.)
 
 Tor is a popular anonymity network that protects users' online privacy. It works by routing internet traffic through multiple volunteer-operated servers.
+
 #### Main components of Tor include:
 Onion Proxy (OP): Software on user's device
 
@@ -48,7 +50,7 @@ Tor uses fixed-length cells (512 bytes) for communication to make traffic analys
 
 De-anonymization attacks on Tor aim to uncover users' identities or reveal hidden services.
 
-
+#### illustrations:
 The paper includes several diagrams that illustrate key components and processes of the Tor network:
 Standard Tor circuit: Figure 1 shows the basic components of a Tor network for a standard circuit, including the client, entry node, middle node, exit node, and destination server.
 
@@ -61,6 +63,8 @@ Hidden Service connection establishment: Figure 4 shows the steps involved in es
 Tor cell structure: Figure 5 presents the structure of Tor's fixed-length cells (512 bytes), showing the differences between control cells and relay cells.
 
 These diagrams help visualize the complex processes and components involved in Tor's anonymity network, making it easier to understand how the system works and where potential vulnerabilities might exist.
+
+
 
 ### Halonen, Ollikainen, Rajala 2023: PhishSticks - The Ethical Hackers tool for BadUSB (Video, about 3 minutes)
 The video describes a fictional scenario demonstrating a USB-based hacking technique. A device called "Fish Sticks" is used to simulate a BadUSB attack. The attacker, an ethical hacker named Steve, leaves the Fish Sticks device on a CEO's desk.
@@ -94,15 +98,28 @@ sudo apt install -y tor torbrowser-launcher
 torbrowser-launcher
 Getting some errors when doing sudo apt update some debian files not available (picture 2)
 Error torbrowser-launcher has no installation candidate
+
+
+
+
 # b) Browse TOR network.
 Find, take screenshots and comment
+
 search engine for onion sites
+
 human rights or civil rights organization
+
 marketplace
+
 fraud
+
 forum
+
 a well known organization (with regular postal addresses, offices or similar presence outside darknet)
+
 Use .onion addresses inside TOR network, not regular (clearnet) websites through exit nodes.
+
+
 
 
 # c) Onion. In your own words, how does anonymity work in TOR? (e.g. how does it use: public keys, encryption, what algorithms? This subtask does not require tests with a computer.)
@@ -115,12 +132,17 @@ https://strathprints.strath.ac.uk/88853/7/Choorod-etal-IEEE-Access-2024-Classify
 https://spec.torproject.org/rend-spec/encrypting-user-data.html 
 https://en.wikipedia.org/wiki/Tor_(Anonymous_network) 
 
+
+
+
 # d) What kind of threat models could TOR fit? (This subtask does not require tests with a computer.)
 Tor is great for avoiding snooping from your internet provider, getting around websites that are blocked in your country, and keeping your identity secret when browsing. 
 It's useful for journalists, activists, or anyone who wants to keep their online activities private. 
 However, it's not perfect - if someone is watching both the start and end of your Tor connection, they might figure out what you're doing. Also, Tor can be slow, and some websites might not work well with it. But overall, it's a powerful tool for staying anonymous online, as long as you use it carefully.
 #### REFERENCE:
 https://en.wikipedia.org/wiki/Tor_(Anonymous_network) https://resources.prodaft.com/prodaft-threat-intelligence-blog/what-is-the-tor-network-and-how-does-it-work 
+
+
 
 
 # e) Don't stick that stick. How does PhishSticks attack work? Would a typical organization be vulnerable? Does this link to a broader category of attacks and defenses? How could the risk be mitigated? (This subtask does not require tests with a computer.) (If you want, you can view PhishSticks on Github and PhishSticks Youtube channel.
@@ -133,7 +155,9 @@ When an unsuspecting employee plugs in the drive, the malware executes automatic
 Many organizations remain vulnerable to this attack due to:
 
 1. Lack of employee awareness about USB security risks.
+
 2. Insufficient endpoint protection against autorun malware.
+
 3. Inadequate physical security measures.
 
 PhishSticks is part of a broader category of social engineering attacks that exploit human behavior and trust. Similar attacks include leaving infected CDs or other storage devices in public areas.
@@ -141,14 +165,18 @@ PhishSticks is part of a broader category of social engineering attacks that exp
 To mitigate this risk, organizations can:
 
 1. Implement strict USB policies, disabling autorun features on all devices.
+
 2. Conduct regular security awareness training for employees.
+
 3. Use advanced endpoint protection solutions that can detect and block malicious USB    activities.
+
 4. Employ physical security measures to prevent unauthorized device access.
+
 5. Consider disabling USB ports on non-essential computers.
 
 By combining technical controls with employee education, organizations can significantly reduce their vulnerability to PhishSticks and similar attacks.
 
-REFERENCE: 
+#### REFERENCE: 
 https://github.com/therealhalonen/PhishSticks/ 
 https://www.youtube.com/watch?v=bDzVevtZiWE&t=23s 
 
