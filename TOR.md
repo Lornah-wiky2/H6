@@ -20,38 +20,60 @@ While Tor provides robust protection, it's not without its vulnerabilities. Pote
 Tor is a popular anonymity network that protects users' online privacy. It works by routing internet traffic through multiple volunteer-operated servers.
 #### Main components of Tor include:
 Onion Proxy (OP): Software on user's device
+
 Directory Servers (DS): Maintain network information
+
 Entry Node/Guard: First relay in the circuit
+
 Exit Node: Final relay before reaching destination
+
 Hidden Services (HS): Anonymous websites ending in .onion
+
 #### Tor circuit establishment:
 OP contacts DS for list of relays
+
 OP selects three relays (entry, middle, exit)
+
 Circuit is created using encryption key exchanges
+
 ### Hidden Service connections involve:
 Introduction Points: Relays chosen by HS to advertise its service
+
 Rendezvous Points: Relay chosen by client to connect with HS
+
 #### Things to note:
 Bridges are unlisted relays that help bypass censorship of Tor.
+
 Tor uses fixed-length cells (512 bytes) for communication to make traffic analysis harder.
+
 De-anonymization attacks on Tor aim to uncover users' identities or reveal hidden services.
 
 
 The paper includes several diagrams that illustrate key components and processes of the Tor network:
 Standard Tor circuit: Figure 1 shows the basic components of a Tor network for a standard circuit, including the client, entry node, middle node, exit node, and destination server.
+
 Hidden Services circuit: Figure 2 depicts the components involved in a Hidden Services (HS) connection, such as the client, introduction points, rendezvous point, and the hidden service itself.
+
 Key exchange process: Figure 3 illustrates the Diffie-Hellman handshake used for encryption key exchange during circuit establishment.
+
 Hidden Service connection establishment: Figure 4 shows the steps involved in establishing a connection between a user and a Hidden Service, including interactions with Directory Servers and Introduction Points.
+
 Tor cell structure: Figure 5 presents the structure of Tor's fixed-length cells (512 bytes), showing the differences between control cells and relay cells.
+
 These diagrams help visualize the complex processes and components involved in Tor's anonymity network, making it easier to understand how the system works and where potential vulnerabilities might exist.
 
 ### Halonen, Ollikainen, Rajala 2023: PhishSticks - The Ethical Hackers tool for BadUSB (Video, about 3 minutes)
 The video describes a fictional scenario demonstrating a USB-based hacking technique. A device called "Fish Sticks" is used to simulate a BadUSB attack. The attacker, an ethical hacker named Steve, leaves the Fish Sticks device on a CEO's desk.
+
 #### When plugged in, Fish Sticks:
 Injects keystrokes to open Windows Run
+
 Uses PowerShell to fetch a payload
+
 Installs a keylogger on the target computer
+
 The keylogger records all keystrokes, potentially capturing sensitive information like passwords. The logged data is temporarily stored, then sent to the attacker via HTTP post. The attack is quick and nearly invisible to the user.
+
 The video aims to highlight the importance of information security and the risks of USB-based attacks.
 
 
