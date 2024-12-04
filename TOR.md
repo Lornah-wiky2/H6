@@ -103,7 +103,21 @@ getting error while trying to connect. (browser not connecting)
 i tried to connect by configuring browser still did not work.
 ![configured browser to try an connect to the internet](https://github.com/user-attachments/assets/56e9dab1-4d89-4cab-8ca3-47f1a4b05dde)
 
-### install tor browser from vm terminal.
+### install tor browser from vm terminal. (approach given by Tero)
+sudo apt-get update 
+
+sudo apt-get -y install tor torbrowser-launcher 
+
+torbrowser-launcher
+
+getting multiple errors.
+
+![errors when installing tor in terminal](https://github.com/user-attachments/assets/76221508-2f4d-4d94-94aa-5b44680ec109)
+
+
+
+
+### install tor browser from vm terminal. (my own approach)
 i decided to follow the following procedure to install tor.
 
 sudo apt update
