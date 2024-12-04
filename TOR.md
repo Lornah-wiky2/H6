@@ -85,19 +85,39 @@ The video aims to highlight the importance of information security and the risks
 
 # a) Install TOR browser and access TOR network (.onion addresses). (Explain in detail how you installed it, and how you got access to TOR).
 Opened my virtual machine
-Opened the web browser within the VM
-went to the official Tor Project website (torproject.org) and downloaded browser.
-When opening the file i have to extract the content before running it.
-I got an attention message of untrusted application launcher. I marked it as executable. 
-(picture)
-Connected to tor (Picture) it was taking to long to load so i tried out the sudo way. 
 
+Opened the web browser within the VM
+
+went to the official Tor Project website (torproject.org) and downloaded browser.
+![downloaded tor browser for linux vm](https://github.com/user-attachments/assets/4ab8df9b-46d5-449e-963d-3687c63a1390)
+
+When opening the file i have to extract the content before running it.
+
+I got an attention message of untrusted application launcher. I marked it as executable. 
+![untrusted application launcher](https://github.com/user-attachments/assets/ec602e39-8e59-4d1c-a79c-92dafb9c4c38)
+
+getting error while trying to connect. (browser not connecting)
+
+![browser not connecting to tor try a bridge  1](https://github.com/user-attachments/assets/6c8b0101-3c45-4aea-941a-f9e37d691488)
+
+i tried to connect by configuring browser still did not work.
+![configured browser to try an connect to the internet](https://github.com/user-attachments/assets/56e9dab1-4d89-4cab-8ca3-47f1a4b05dde)
+
+### install tor browser from vm terminal.
+i decided to follow the following procedure to install tor.
 
 sudo apt update
+
 sudo apt install -y tor torbrowser-launcher
+
 torbrowser-launcher
+
 Getting some errors when doing sudo apt update some debian files not available (picture 2)
+![sudo apt update error 2](https://github.com/user-attachments/assets/cf0ff010-e9c2-4adc-bdf3-2fb653784ca0)
+
 Error torbrowser-launcher has no installation candidate
+![has no installation candidate error 3](https://github.com/user-attachments/assets/9ae23ede-982d-448e-a25d-29b079b29478)
+
 
 
 
@@ -105,17 +125,17 @@ Error torbrowser-launcher has no installation candidate
 # b) Browse TOR network.
 Find, take screenshots and comment
 
-search engine for onion sites
+   -search engine for onion sites
 
-human rights or civil rights organization
+   -human rights or civil rights organization
 
-marketplace
+   -marketplace
 
-fraud
+   -fraud
 
-forum
+   -forum
 
-a well known organization (with regular postal addresses, offices or similar presence outside darknet)
+   -a well known organization (with regular postal addresses, offices or similar presence outside darknet)
 
 Use .onion addresses inside TOR network, not regular (clearnet) websites through exit nodes.
 
